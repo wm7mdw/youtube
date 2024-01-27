@@ -1,0 +1,94 @@
+.header{
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.l{
+  display: flex;
+  align-items: center;
+
+}
+.m{
+
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  margin-right:34px ;
+  margin-left: 70px;
+  flex: 1;
+  
+}
+.searchbar{
+  width: 0;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  font-size: 15px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  height: 36px;
+  padding-left: 10px;
+  flex: 1;
+}
+.b1{
+  margin-left: -1px;
+  border-radius: 2px;
+  background-color: rgb(238, 237, 237);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  display: flex;
+  align-items:center;
+width: 66px;
+height: 40px;
+}
+.imgsearch{
+  margin-left: 16px;
+  height: 22px;
+}
+.b2{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: rgb(238, 237, 237);
+  border: none;
+  width: 40px;
+height: 40px;
+}
+.imgvoicesearch{
+  margin-left: 3px;
+  height: 22px;
+}
+.r{  
+  flex-shrink: 0;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 180px;
+
+}
+.imgup{
+  width: 24px;
+}
+.imgapps{
+  width: 24px;
+}
+.imgnot{
+  width: 24px;
+}
+.imgchnnal{
+  margin-right: 20px;
+  border-radius: 16px;
+  width: 32px;
+}
+.imghum{
+  margin-left: 24px;
+  margin-right: 20px;
+  width: 24px;
+}
+.imgyou{
+  width: 100px;
+}
